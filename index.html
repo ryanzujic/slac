@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Line Alignment with Context - Preview</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: 50px auto; text-align:center; }
+        input { width: 100%; padding: 10px; margin: 10px 0; }
+        button { padding: 10px 20px; }
+        #result { margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SLAC Preview Builder</h1>
+        <input type="text" id="hit_seq" placeholder="Enter hit DNA sequence">
+        <input type="text" id="ref_seq" placeholder="Enter reference DNA sequence (eg gene genomic seq)">
+        <input type="text" id="ref_context_subseq" placeholder="Enter reference context DNA sequence (eg gene coding seq)">
+        <button id="submit-3-seq-button">Submit</button>
+        <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
