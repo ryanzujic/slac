@@ -3,7 +3,7 @@ document.getElementById('submit-3-seq-button').addEventListener('click', async (
     const full_ref_seq = document.getElementById('full_ref_seq').value;
     const ref_context_subseq = document.getElementById('ref_context_subseq').value;
 
-    const response = await fetch('vercel-app-address.app/process', {
+    const response = await fetch('slacserver-3rqhxvkzj-ryans-projects-52726e9a.vercel.app/index', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
