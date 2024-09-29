@@ -11,9 +11,11 @@ In the context of sequence search workflows, this enables something like a query
 
 A key feature of SLAC is the ability to generate abbreviated previews (miniSLAC) which allow it to generate 'thumbnail previews', suitable for embedding within common short-text-based environments such as spreadsheets and interactive plot hover text. This may greatly aid a user's ability to quickly navigate results within a unified interface.
 
-This repo contains the core Python module for SLAC and is freely provided for use in the bioinformatics community.
+This repo contains the core Python module for SLAC and is freely provided for use in the bioinformatics community. 
 
 SLAC is available as an interactive website where aligned sequences can be provided directly. It also provides example sequences to better understand its use.
-https://ryanzujic.github.io/slacserver/
+https://ryanzujic.github.io/slacweb/
 
-Please feel free to integrate SLAC within your work in accordance with the licence. Contributions to improve SLAC are welcome.
+### *Note: SLAC is currently in pre-release and a packaged release to PyPI will be available in the coming weeks. In the meantime, I'd encourage anyone interested to follow this repo and have a play with the interactive site to get a feel for SLAC.*
+
+Anyone interested in using SLAC for their work or aiding its development is very welcome to reach out to chat.
