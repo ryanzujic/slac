@@ -82,7 +82,8 @@ class SLAC(object):
             if len(genomic) != len(hit):
                 raise ValueError("Genomic and hit sequences must be aligned, and therefore be the same length")
 
-        max_length = max([len(genomic), len(cds), len(hit)])
+        # Find the longest sequence to use as the basis for the alignment, accommodating absences.
+        max_length = max([len(genomic or ""), len(cds or ""), len(hit or "")])
 
         self.genomic = genomic.upper().replace(" ", "-") if genomic else ""
         self.cds = cds.upper().replace(" ", "-") if cds else ""
